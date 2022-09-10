@@ -1,0 +1,21 @@
+from helper import print_str, get_score
+import helper
+tabnineGreeting = "Hello! TabNine here!"
+print_str("\n================================================")
+helper.wait(0.2)
+print_str("           TabNine Test Case No. 1")
+print_str("================================================")
+helper.wait(2)
+print_str("\nYou are greeted by the TabNine AI Auto-Completion Tool.\n")
+print_str(tabnineGreeting)
+helper.wait(1)
+print_str("We're just here to save your time while you're coding.")
+helper.wait(2)
+print_str("\n================================================")
+helper.wait(0.2)
+print_str("             TabNine Test Results")
+print_str("================================================")
+helper.wait(2)
+print_str("Perfect! Your performance is beautiful!")
+print_str("Score:")
+get_score(100)
