@@ -7,7 +7,7 @@ setup(
     version='1.0.0',
     packages=['helper'],
     url='https://github.com/mandomonem/python-fun',
-    license='MIT License (GitHub MIT License)',
+    license='MIT License (GitHub)',
     author='Youssef Nasr',
     author_email='yoyo.monem22@gmail.com',
     description='Just for fun'

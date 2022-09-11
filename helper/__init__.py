@@ -13,7 +13,7 @@ def wait(secs=float):
     time.sleep(secs)
 
 
-def get_score(score_result=float):
+def get_score(score_result=float and str):
     score = score_result
     if score_result == str:
         print_str(score)
@@ -25,3 +25,4 @@ def get_score(score_result=float):
         return 1
     else:
         print_colorized("Unrecognized score", "red")
+        return 1
