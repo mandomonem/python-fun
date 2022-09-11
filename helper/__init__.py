@@ -17,7 +17,7 @@ def get_score(score_result=float):
     score = score_result
     if score_result == str:
         score = float(score_result)
-        print_str(score)
+        print_str(str(score))
     elif score_result == float:
         score = score_result
         print_str(str(score))
