@@ -16,8 +16,7 @@ def wait(secs=float):
 def get_score(score_result=float):
     score = score_result
     if score_result == str:
-        score = float(score_result)
-        print_str(str(score))
+        print_str(score)
     elif score_result == float:
         score = score_result
         print_str(str(score))
@@ -25,4 +24,4 @@ def get_score(score_result=float):
         print_colorized("Score was not specified", "red")
         return 1
     else:
-        print_colorized("Unrecognized score result", "red")
+        print_colorized("Unrecognized score", "red")
