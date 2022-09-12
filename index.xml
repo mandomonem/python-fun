@@ -3,7 +3,7 @@
     <head>
         <style>
             div {
-                display: curve;
+                display: block;
             }
             body {
                 font-family: "Segoe UI";
@@ -30,5 +30,8 @@
             <p>The awesomeness of this project has begun with PyCharm, which is a <a href="https://www.simplilearn.com/tutorials/python-tutorial/python-ide">IDE designed specifically for creating Python projects</a>.</p>
             <p><a href="https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_comparisons1">Saved URL from the clipboard</a></p>
         </div>
+        <script>
+            alert("Welcome to the XML!");
+        </script>
     </body>
 </html>
