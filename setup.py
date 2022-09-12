@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(
-    name='python_fun',
+    name='Fun Python: Just for Fun',
     version='1.0.0',
     packages=['helper'],
     url='https://github.com/mandomonem/python-fun',
