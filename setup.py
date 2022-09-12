@@ -1,4 +1,4 @@
-#  Copyright © 2022 Youssef Land. All rights reserved.
+# Copyright © 2022 Youssef Land. All rights reserved.
 
 from setuptools import setup
 

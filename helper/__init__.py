@@ -1,19 +1,19 @@
 import time
 from termcolor import colored
 
-def print_str(text=str):
+def print_str(text):
     print(text)
 
 
-def print_colorized(text=str, color=str):
+def print_colorized(text, color):
     print(colored(text, color))
 
 
-def wait(secs=float):
+def wait(secs):
     time.sleep(secs)
 
 
-def get_score(score_result=float and str):
+def get_score(score_result):
     score = score_result
     if score_result == str:
         print_str(score)
@@ -26,3 +26,11 @@ def get_score(score_result=float and str):
     else:
         print_colorized("Unrecognized score", "red")
         return 1
+
+
+def ask(question):
+    input(question)
+
+
+def ask_colorized(question, color):
+    ask(colored(question, color))

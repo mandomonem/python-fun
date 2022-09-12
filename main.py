@@ -1,21 +1,10 @@
-from helper import print_str, get_score
+from helper import print_colorized, ask, ask_colorized, print_str
 import helper
-tabnineGreeting = "Hello! TabNine here!"
-print_str("\n================================================")
-helper.wait(0.2)
-print_str("           TabNine Test Case No. 1")
-print_str("================================================")
-helper.wait(2)
-print_str("\nYou are greeted by the TabNine AI Auto-Completion Tool.\n")
-print_str(tabnineGreeting)
-helper.wait(1)
-print_str("We're just here to save your time while you're coding.")
-helper.wait(2)
-print_str("\n================================================")
-helper.wait(0.2)
-print_str("             TabNine Test Results")
-print_str("================================================")
-helper.wait(2)
-print_str("Perfect! Your performance is beautiful!")
-print_str("Score:")
-get_score(10)
+import test
+name = ask("What's your name? ")
+if name == None or name == "Not telling you my name" or name == "Not telling you":
+    print_colorized("ERROR: It's required to specify your name.", "red")
+    helper.wait(2)
+    name = ask_colorized("Please enter your name. ", "red")
+else:
+    test.print_hi(name)
