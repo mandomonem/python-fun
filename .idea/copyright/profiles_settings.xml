@@ -1,7 +1,7 @@
 <component name="CopyrightManager">
-  <settings default="Youssef Land">
+  <settings default="Youssef Land Copyright Settings">
     <module2copyright>
-      <element module="Project Files" copyright="Youssef Land" />
+      <element module="Project Files" copyright="Youssef Land Copyright Settings" />
     </module2copyright>
     <LanguageOptions name="DTD">
       <option name="fileTypeOverride" value="3" />
