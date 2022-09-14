@@ -1,4 +1,4 @@
-from helper import print_colorized, ask, ask_colorized, print_str
+from helper import print_colorized, ask, ask_colorized
 import helper
 import test
 name = ask("What's your name? ")
