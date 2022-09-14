@@ -1,6 +1,7 @@
 import time
 from termcolor import colored
 
+
 def print_str(text):
     print(text)
 
@@ -20,7 +21,7 @@ def get_score(score_result):
     elif score_result == float:
         score = score_result
         print_str(str(score))
-    elif score_result == None or score_result == "":
+    elif score_result == None:
         print_colorized("Score was not specified", "red")
         return 1
     else:

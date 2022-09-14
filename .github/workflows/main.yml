@@ -29,15 +29,9 @@ jobs:
       - name: Run a Hello World script
         run: echo Hello, world!
       
-      # Runs the commit identifier
+      # Runs the commit identifier with multiple commands
       - name: Run the commit identifier
         run: |
           echo Identifying commit... This will take about 3 seconds.
           sleep 3
           echo Commit identified!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a GitHub Actions default script (multi-line)
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
