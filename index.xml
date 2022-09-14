@@ -21,7 +21,7 @@
             </ol>
         </div>
         <div class="github-repository">
-            <h1 id="github-repository-link">Github Repository for This Project</h1>
+            <h1 id="github-repository-link">GitHub Repository for This Project</h1>
             <a href="https://github.com/mandomonem/python-fun">Click here (this is not a scam)</a>
         </div>
         <div class="about">
@@ -30,7 +30,7 @@
             <p>The awesomeness of this project has begun with PyCharm, which is a <a href="https://www.simplilearn.com/tutorials/python-tutorial/python-ide">IDE designed specifically for creating Python projects</a>.</p>
             <p><a href="https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_comparisons1">Saved URL from the clipboard</a></p>
         </div>
-        <script>
+        <script type="text/javascript">
             function welcome() {
                 alert("Welcome to the XML!\nEnjoy reading!");
             }
